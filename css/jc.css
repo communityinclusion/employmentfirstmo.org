@@ -1,0 +1,22 @@
+
+html {font-family: 'Open Sans', sans-serif; margin:0px; padding:0px;}
+.container {max-width: 1200px; margin-left:auto; margin-right: auto; padding-left: 15px;
+    padding-right: 15px;}
+section {border:2px #97B1C7 solid; padding:2em;}
+.bluey {color: #1C5386; }
+.red {color:#9F203C}
+.boxy { background:#E4E5E6; padding: 1em; margin: 1em;}
+.biggy {font-size: x-large; font-weight: bold; max-width: 900px; margin:auto;}
+.lilbiggy {font-size: larger;}
+.banner {text-align: center; background-color: #DDDFE9;}
+
+.img-resp {max-width: 100%}
+.pull-left {
+	float: left; padding-right:.5em;
+}
+.pull-right {
+	float: right; padding-left:.5em;
+}
+.paddy {padding:1em;}
+
+h2 {color: #144885; margin-bottom: 0px; margin-top:2em; border-bottom: #144885 1px solid;}
