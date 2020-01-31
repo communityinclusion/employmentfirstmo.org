@@ -1,33 +1,32 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Employment First Missouri </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+{% include head.html %}
+
+
+
+
+      <div class="container no_top_padding">
+         
+        {% include top.html %}
         
-        <link rel="stylesheet" href="css/jc.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-       
-        <div class="banner">
-            <div class="container">
-        <h1><img src="imgs/emp1_mo.png" alt="Employment First Missouri Training Sessions" class="img-resp" style=""></h1>
-            </div>
-    </div>
-       <nav style="text-align:center;"><b>Jump To:</b> <a href="#tr">Training Sessions</a> | <a href="#staff">Staff Members</a></nav>
-<div class="container">
-        {{ content }}
-</div>
-        <script src="" async defer></script>
-</body>
+   
+
+   {% include menu.html %}
+
+<hr>
+   <div class="container padb">
+     <div class="container">
+     
+
+    <h1> {{ page.title }} </h1>
+
+      {{ content }}
+
+
+     </div>
+   </div>
+    </div><!-- /.container -->
+
+{% include footer.html %}
+   
+  
+  </body>
 </html>
