@@ -14,5 +14,3 @@ JANs online system is designed to let users explore various accommodation option
 [**MassMatch; Massachusetts Initiative to Maximize Assistive Technology (AT) in Consumers Hands**](https://at.mo.gov/)  
 This website has extensive information about AT resources, training, and local news. Missouri Assistive Technology strives to increase access to assistive technology for Missourians with all types of disabilities, of all ages. 
 
-[**AbleData Website**](http://www.abledata.com/)  
-This website provides information and examples of assistive technology products and rehabilitation equipment.
