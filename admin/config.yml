@@ -31,6 +31,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
       - {label: "Date and time", name: "datetime", widget: "datetime"}
       - {label: "Type of training", name: "type", widget: "select", options: ["webinar", "in-person", "online"]}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Status", name: "status", widget: "select", options: ["live", "archived", "draft"]}
