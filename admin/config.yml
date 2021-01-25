@@ -24,3 +24,14 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  
+  - label: "trainings"
+    name: "trainings"
+    folder: "_trainings/"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date and time", name: "datetime", widget: "datetime"}
+      - {label: "Type of training", name: "type", widget: "select", options: ["webinar", "in-person", "online"]}
+      - {label: "Body", name: "body", widget: "markdown"}

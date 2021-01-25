@@ -3,13 +3,3 @@ highlighter: rouge
 permalink: none
 excerpt_separator: "\n\n"
 
-collections:
-  - label: "trainings"
-    name: "trainings"
-    folder: "_trainings/"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date and time", name: "datetime", widget: "datetime"}
-      - {label: "Type of training", name: "type", widget: "select", options: ["webinar", "in-person", "online"]}
-      - {label: "Body", name: "body", widget: "markdown"}
