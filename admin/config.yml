@@ -35,4 +35,11 @@ collections:
       - {label: "Date and time", name: "datetime", widget: "datetime"}
       - {label: "Type of training", name: "type", widget: "select", options: ["webinar", "in-person", "online"]}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "flyer"
+        name: "flyer"
+        widget: "file"
+        default: "/uploads/training/"
+        media_library:
+        config:
+        multiple: true
       - {label: "Status", name: "status", widget: "select", options: ["live", "archived", "draft"]}
